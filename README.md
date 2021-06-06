@@ -6,7 +6,7 @@ Pull the docker with
 ```
 docker pull sagemath/sagemath
 ```
-and run it as jupyter notebook from the root foldedr by
+and run it as jupyter notebook from the root folder by
 ```
 docker run -v "${PWD}:/home/sage/volume" -p8889:8888 sagemath/sagemath:latest sage-jupyter
 ```
